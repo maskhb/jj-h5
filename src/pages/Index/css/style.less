@@ -1,0 +1,69 @@
+.wrapper{ padding-bottom: 120px;background-color: #F4F4F4; height:-webkit-fill-available;}
+.topBar{ position: fixed; top:0; width: 100%; z-index: 1;}
+.topBar1{ position: fixed; top:0; width: 100%; z-index: 1; background-color: #fff;}
+.topBar1 /deep/ .weui-search-bar__form:after, .topBar1 /deep/ .weui-search-bar__label{ background-color: #F3F4F5;}
+.location{ margin-left: 30px; margin-top: 30px; background-color: rgba(0,0,0,0.3); color:#fff; border-radius: 30px; font-size: 24px;
+  position: relative;  padding: 0 10px 0 48px; white-space: nowrap; text-overflow: ellipsis;overflow: hidden; line-height: 58px;}
+.location > i{ margin-right: 6px; position: absolute; left: 14px;top:12px;}
+.searchDom{ position: relative;}
+.searchDom /deep/ .weui-search-bar{ background-color: unset;}
+.searchDom /deep/ .weui-search-bar:before, .searchDom /deep/ .weui-search-bar:after{ border: none;}
+.searchDom /deep/ .weui-search-bar__form{ background-color: unset;}
+.searchDom /deep/ .weui-search-bar__label{ border-radius: 48px;}
+.searchDom /deep/ .weui-search-bar__form:after{ border-radius: 48px;}
+.searchDom /deep/ .weui-input{ background-color: #fff; border:0; line-height: 56px; height: 56px; border-radius: 28px;
+  padding-left: 50px; box-sizing: border-box; }
+.searchDom /deep/ .weui_icon_search{ position: absolute; left:40px; top: 44px;}
+.searchDom /deep/ .weui-cell__ft{ display:none;}
+.topBar .searchDom /deep/ .weui-input{ background-color: rgba(255,255,255,0.8);}
+.topBar1 .searchDom /deep/ .weui-input{ background-color: #F3F4F5; }
+.topBar1 .searchDom /deep/ .weui-cell{ padding: 20px 30px!important;}
+.topBar1 .searchDom /deep/ .weui_icon_search { top: 34px;}
+
+.webpart{ padding: 20px 10px 10px; margin-top: 20px; background-color: #fff;}
+.webpart .wp_title{ padding-left: 10px; font-size: 16PX; background: url(../images/rectangle.png) no-repeat 6px center; background-size: 28px 28px; }
+.webpart .wp_content{ width: 100%; overflow: auto;}
+
+
+
+
+.adList{ padding: 10px;}
+.adList >li{ position: relative; height: 190px; margin:10px 0; box-sizing: border-box; }
+.adList >li:last-child{ margin-bottom: 0;}
+.adList >li .imgDom{ position: absolute; left: 0; top: 0; width: 260px; height: 180px; border-radius: 12px;}
+.adList >li .adTitle{ margin-left: 280px; height: 96px; line-height: 48px; overflow: hidden; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+  text-overflow:ellipsis; display:-webkit-box; word-break: break-all;}
+.adList >li .adData{ margin-left: 280px; margin-top: 36px; color:#999;}
+.adList >li .adData > span{ margin-right: 20px; font-size: 28px;}
+.adList >li .adData > span i{ margin-right: 3px; font-size: 28px;}
+.adList >li:first-child{ height: 310px;}
+.adList >li:first-child .imgDom{ position: inherit; width: 100%; height: 300px;}
+.adList >li:first-child .imgDom img{ width: 100%; min-height: 100%;}
+.adList >li:first-child .adTitle{ position: absolute; bottom: 20px; left: 20px; right: 200px; margin-left: 0; height: 48px; color:#fff;}
+.adList >li:first-child .adData{ position: absolute; bottom: 20px; right: 0; color:#fff; margin-left: 0; margin-top: 0;}
+
+.homeList{overflow: hidden;}
+.homeList>li{ width: 150PX; float: left; margin: 5PX; box-sizing: border-box; position: relative;}
+.homeList .imgDom{ height: 150PX; border-radius: 12px;}
+.homeList .homeTitle{ position: absolute; bottom: 10px; height: 40PX; color:#fff; margin: 0 20px; line-height: 40px;}
+
+.commentList{ }
+.commentList>li{ position: relative;margin: 10px; }
+.commentList>li>.imgDom{ position: absolute; left: 0; top: 0; width: 100px; height: 100px; border-radius:50px; box-sizing: border-box;}
+.commentList>li>.imgDom img{ width: 100%; height: 100%;}
+.commentInfo{ margin-left: 120px; border-bottom: 1PX solid #eee; padding: 10px 0;}
+.commentInfo .commentName{}
+.commentKey{ color:#a8aab0;}
+.commentInfo>a{ background-color: #f3f4f6; padding: 10px; position: relative; display: block; height: 140px; box-sizing: border-box; margin: 20px 0;}
+.commentInfo>a .imgDom{ width: 160px; height: 120px; position: absolute; left:10px; top:10px; border-radius: 6px;}
+.commentInfo>a .imgDom img{ width: 100%; height: 100%;}
+.commentInfo>a .linkTitle{ margin-left: 180px; margin-top: 12px; height: 48px; font-weight: bold; line-height: 48px; overflow: hidden;
+  -webkit-line-clamp:2; -webkit-box-orient:vertical; text-overflow:ellipsis; display:-webkit-box; word-break: break-all;}
+
+.center{ text-align: center;}
+.footBar{ position: fixed; bottom: 0; width: 100%;}
+
+.imgDom{ overflow: hidden;}
+.h_180{ height: 360px;}
+.h_80{ height: 160px;}
+.relative{ position: relative;}
